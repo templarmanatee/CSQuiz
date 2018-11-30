@@ -23,18 +23,7 @@ public class QuizTime {
 		TrueFalseQuestion twelve 		= new TrueFalseQuestion("That joke is bad.", true);
 		
 		Quiz quiz = new Quiz();
-		quiz.addQuestion(one);
-		quiz.addQuestion(two);
-		quiz.addQuestion(three);
-		quiz.addQuestion(four);
-		quiz.addQuestion(five);
-		quiz.addQuestion(six);
-		quiz.addQuestion(seven);
-		quiz.addQuestion(eight);
-		quiz.addQuestion(nine);
-		quiz.addQuestion(ten);
-		quiz.addQuestion(eleven);
-		quiz.addQuestion(twelve);
+		quiz.addQuestion(one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve);
 		
 		System.out.println(quiz.giveQuiz());
 	}
